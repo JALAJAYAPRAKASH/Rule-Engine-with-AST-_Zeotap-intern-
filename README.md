@@ -5,7 +5,7 @@ A rule engine with Abstract Syntax Trees (AST) is a powerful system for defining
 Usage
 1. Run git clone in terminal
 
-[ git clone https://github.com/jatinxkirito/RuleEngine_ATS.git](https://github.com/JALAJAYAPRAKASH/Rule-Engine-with-AST-_Zeotap-intern-)
+[[ git clone https://github.com/JALAJAYAPRAKASH/RuleEngine_ATS.git](https://github.com/JALAJAYAPRAKASH/Rule-Engine-with-AST-_Zeotap-intern-)](https://github.com/JALAJAYAPRAKASH/Rule-Engine-with-AST-_Zeotap-intern-)
  
 Run following in terminal
   npm install
