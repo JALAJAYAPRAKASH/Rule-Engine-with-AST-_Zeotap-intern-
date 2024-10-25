@@ -16,7 +16,7 @@ In zeotap__frontend folder
 Run following in terminal
   npm install
   npm run dev
-Open http://localhost:5173 in you browser
+
 
 To run tests, go to zeotap_backend folder and run following command in terminal
 
