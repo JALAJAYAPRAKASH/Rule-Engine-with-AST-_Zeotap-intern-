@@ -1,23 +1,14 @@
 # Rule Engine with AST
 
-# Usage
-Run git clone in terminal
+A rule engine with Abstract Syntax Trees (AST) is a powerful system for defining, managing, and executing complex business rules. It uses ASTs to represent rules as structured, hierarchical data, allowing for efficient parsing, evaluation, and modification of rules. This approach enables dynamic rule creation, combination, and execution, making it ideal for applications that require flexible decision-making logic, such as eligibility checks, pricing calculations, or compliance verification.
 
- git clone https://github.com/jatinxkirito/RuleEngine_ATS.git
-In zeotap_backend folder
+Usage
+1. Run git clone in terminal
 
-Create config.env file with following content
- DATABASE_LINK="Your MongoDB database link"
+[ git clone https://github.com/jatinxkirito/RuleEngine_ATS.git](https://github.com/JALAJAYAPRAKASH/Rule-Engine-with-AST-_Zeotap-intern-)
+ 
 Run following in terminal
   npm install
   npm start
-In zeotap__frontend folder
-
-Run following in terminal
-  npm install
   npm run dev
-
-
-To run tests, go to zeotap_backend folder and run following command in terminal
-
- npx mocha --file test/testSetup.js test/**/*.test.js
+ 
