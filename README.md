@@ -8,7 +8,7 @@ Usage
 [[ git clone https://github.com/JALAJAYAPRAKASH/RuleEngine_ATS.git](https://github.com/JALAJAYAPRAKASH/Rule-Engine-with-AST-_Zeotap-intern-)]
  
 Run following in terminal
-  npm install
-  npm start
-  npm run dev
+  * npm install
+  * npm start
+  * npm run dev
  
