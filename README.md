@@ -2,9 +2,26 @@
 
 A rule engine with Abstract Syntax Trees (AST) is a powerful system for defining, managing, and executing complex business rules. It uses ASTs to represent rules as structured, hierarchical data, allowing for efficient parsing, evaluation, and modification of rules. This approach enables dynamic rule creation, combination, and execution, making it ideal for applications that require flexible decision-making logic, such as eligibility checks, pricing calculations, or compliance verification.
 
-#Database schema
-
-Rule:
+# Database schema
+* Operator:
+```
+{
+  "type": "operator",
+  "left": Node,
+  "right": Node,
+  "value": string ("AND" or "OR")
+}
+```
+* Operand(leaf node):
+```
+{
+  "type": "operand",
+  "left": null,
+  "right": null,
+  "value": string (e.g. "Salary>50000")
+}
+```
+* Rule:
 ```
 {
   "name": string,
