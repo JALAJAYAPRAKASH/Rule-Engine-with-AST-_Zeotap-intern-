@@ -5,8 +5,8 @@ A rule engine with Abstract Syntax Trees (AST) is a powerful system for defining
 #Database schema
 
 Rule:
-
-* {
+```
+{
   "name": string,
   "description": string,
   "ruleString": string(e.g. "(age > 30 AND department = 'Marketing')"),
@@ -14,13 +14,14 @@ Rule:
   "createdAt": date,
   "updatedAt": date,
  }
+```
 # Usage
 1. Run git clone in terminal
 
 [[ git clone https://github.com/JALAJAYAPRAKASH/RuleEngine_ATS.git](https://github.com/JALAJAYAPRAKASH/Rule-Engine-with-AST-_Zeotap-intern-)]
  
 Run following in terminal
-  * npm install
-  * npm start
-  * npm run dev
+``` npm install ```
+```npm start```
+```npm run dev```
  
